@@ -1,0 +1,227 @@
+body{
+background-color: green;
+
+
+}
+
+#scores{
+text-align: center;
+background-color: red;
+z-index:1;
+position: fixed;
+border-style : solid;
+height: 100px;
+width: 200px;
+bottom: 2%;
+right: 2%;
+
+}
+
+#spanscore{
+background-color :yellow;
+font-size : 32px;
+
+position: absolute;
+bottom:0%;
+left: calc(100px - 50px);
+
+height:40px;
+width:100px;
+
+}
+
+#ground{
+background-color: grey;
+position: relative;
+
+height: 1200px;
+width: 40%;
+top: 150px;
+left : 30%;
+
+}
+
+.vwall{
+
+background-color: blue;
+position: absolute;
+
+width: 25px;
+height: 100%;
+
+
+}
+
+#leftwall{
+left: 0%;
+
+}
+
+#rightwall{
+
+right: 0%;
+}
+
+.hwall{
+background-color: blue;
+position: absolute;
+
+width: calc(100% - 150px);
+height: 25px;
+
+}
+
+#left{
+
+left : 25px;
+}
+
+#right{
+
+right: 25px;
+
+}
+
+[hwallno="1"]{
+
+top : 0px;
+}
+
+
+[hwallno="2"]{
+
+top : 150px;
+}
+
+[hwallno="3"]{
+
+top : 300px;
+}
+
+
+[hwallno="4"]{
+
+top : 450px;
+}
+[hwallno="5"]{
+
+top : 600px;
+}
+
+
+[hwallno="6"]{
+
+top : 750px;
+}
+[hwallno="7"]{
+
+top : 900px;
+}
+
+
+[hwallno="8"]{
+
+top : 1050px;
+}
+
+#tank{
+
+background-color: brown;
+z-index: 2;
+position: absolute;
+
+width : 50px;
+height : 65px;
+
+
+
+
+
+}
+
+.light{
+background-color: yellow;
+position: absolute;
+
+bottom: 0%;
+
+height: 20%;
+width: 20%;
+
+
+}
+
+#tleft{
+
+left : 0%;
+
+}
+
+#tright{
+
+right : 0%;
+
+}
+
+#turret{
+
+background-color : cyan;
+
+position: absolute;
+
+width : 10%;
+height : 60%;
+
+left :45%;
+top : 75%;
+
+}
+
+
+#tank.south{
+	
+
+}
+
+#tank.west{
+transform : rotate(90deg);
+}
+
+#tank.north{
+
+transform : rotate(180deg);	
+
+}
+
+#tank.east{
+transform : rotate(270deg);
+}
+
+#trophy{
+position: absolute;
+bottom: 2%;
+right: 10%;
+height : 80px;
+width : 80px;
+background-color:gray;
+
+}
+#trophy .ut {
+	position: absolute;
+	top: 5px;
+	border-top: 90px solid #FF9800;
+	border-bottom: 0px;
+	border-left: 40px solid transparent;
+	border-right: 40px solid transparent;
+}
+
+#trophy .lt {
+	position: absolute;
+
+	bottom: 5px;
+
+	border-top: 0px;
+	border-bottom: 90px solid #FF9800;
+	border-left: 40px solid transparent;
+	border-right: 40px solid transparent;
+}
